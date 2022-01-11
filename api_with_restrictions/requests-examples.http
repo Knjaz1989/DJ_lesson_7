@@ -75,12 +75,12 @@ Authorization: Token ea8d2567dc49da2f0a9d6b656f5ddd75487492b9
 ###
 
 # попытка поменять объявление самим пользователем
-PATCH http://localhost:8000/api/advertisements/2/
+PATCH http://localhost:8000/api/advertisements/13/
 Content-Type: application/json
 Authorization: Token 59cc1b7961aa3db6012036d08f16fea8d896e53f
 
 {
-  "status": "CLOSED"
+  "status": "OPEN"
 }
 ###
 
